@@ -4,27 +4,33 @@
   padding: 0;
 }
 
-body {
+.page {
   width: 480px;
   margin: auto;
-  padding: 20px 0;
+  padding: 20px 36px;
 }
 
-.agensy {
+.article {
   margin: 0 0 36px 0;
-  padding: 0 36px 0 36px;
+  
 }
 
-.hz {
+.title {
   margin: 0 0 16px 0;
+  
 }
 
-.hzv {
+.subtitle {
   margin: 0 0 20px 0;
+  font-weight: bold;
 }
+
 
 .fli {
   
   margin: 20px 0 16px 0;
   
+}
+.article-end {
+  margin: 0 0 0 0;
 }
