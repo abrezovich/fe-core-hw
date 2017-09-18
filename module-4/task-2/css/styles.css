@@ -1,0 +1,28 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.wrapper {
+  width: 630px;
+  padding: 30px 56px 30px 56px;
+  background-color: transparent;
+  margin: auto;
+}
+.list {
+  column-count: 2;
+  column-gap: 46px;
+  list-style-type: none;
+   
+}
+.list-item {
+  font-size: 14px;
+  font-family: Arial;
+  color: rgb(49,53,64);
+  margin-bottom: 26px;
+  }
+.list-item::before {
+ content: '\2192' ;
+ color: rgb(119, 166, 192);
+ margin-right: 14px;
+}
