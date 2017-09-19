@@ -24,8 +24,13 @@
   color: #000;
 }
 
-.list-item:nth-of-type(4n+1) {
-  background-color: red;
+.list-item:nth-of-type(3n+1) {
+  background-color: #fff;
 }
-
+.list-item:nth-of-type(3n+2) {
+  background-color: #ddd;
+}
+.list-item:nth-of-type(3n+3) {
+  background-color: #bbb;
+}
 
