@@ -8,33 +8,29 @@
 
   width: 1280px;
   height: 250px;
-  padding: 30px 100px 30px 100px;
+  padding: 100px;
   background: linear-gradient(to right, #a7bde5, #6cb1da);
   margin: auto;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+ 
 }
 .list{
   
   list-style-type: none;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  
 }
 .list-item{
-  display: inline-block;
+  float: left;
   
 }
 .link{
   font-size: 28px;
   color: #fff;
   text-decoration: none;
- 
+  margin-right: 40px;
 }
-
+.link:hover{
+  color: blue;
+  }
 .clearfix::after {
   display: block;
   content: '';
