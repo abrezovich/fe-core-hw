@@ -8,7 +8,7 @@
 
   width: 1280px;
   height: 250px;
-  padding: 100px;
+  padding: 100px 75px;
   background: linear-gradient(to right, #a7bde5, #6cb1da);
   margin: auto;
  
@@ -20,19 +20,26 @@
 }
 .list-item{
   float: left;
+  margin-right: 100px;
   
 }
 .link{
   font-size: 28px;
   color: #fff;
   text-decoration: none;
-  margin-right: 40px;
+  text-transform: uppercase;
 }
 .link:hover{
-  color: blue;
+  color: rgb(37, 52, 85);
   }
+.list-item:last-child{
+   margin-right: 0;
+}
 .clearfix::after {
   display: block;
   content: '';
   clear: both;
+}
+#current{
+  color: rgb(37, 52, 85);
 }
