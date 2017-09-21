@@ -6,7 +6,7 @@
 body{
   background-image: url(../image/page_bg.jpg);
   padding-top: 230px;
-  padding-bottom: 135px;
+  padding-bottom: 260px;
 }
 .wrapper {
 
@@ -69,6 +69,9 @@ body{
 .pad{
   padding-left:0;
  }
+ .marg{
+   margin-bottom: 50px;
+ }
 .asid{
   width: 30%;
   float: right;
@@ -108,11 +111,25 @@ list-style: none;
   background-color: #fcfafa;
   border: 1px solid #e9e6e6;
 }
+.quote::before {
+  content: '\201C' ;
+  color: #263555;
+  margin-right: 6px;
+  margin-left: 8px;
+ }
+ .quote::after {
+  content: '\201D' ;
+  color: #263555;
+  margin-right: 6px;
+  margin-left: 8px;
+ }
+
 .list-main {
   padding-top: 46px;
   column-count: 2;
   column-gap: 46px;
   list-style-type: none;
+  padding-bottom: 46px;
    
 }
 .list-item-main {
@@ -128,4 +145,8 @@ margin-bottom: 0;
  content: '\2192' ;
  color: #38afe5;
  margin-right: 14px;
+}
+.aside-text{
+  text-align: center;
+  
 }
