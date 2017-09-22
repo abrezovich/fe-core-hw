@@ -1,0 +1,30 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper {
+
+  width: 1010px;
+  
+  padding: 50px;
+ 
+  margin: auto;
+ 
+}
+.header{
+  width: 140px;
+  height: 140px;
+  background: #a7bde4;
+}
+.logo{
+ background: white;
+ width: 140px;
+ height: 140px;
+  border-radius: 70px;
+  text-align: center;
+  padding-top: 40%;
+  color: #263555;
+
+}
