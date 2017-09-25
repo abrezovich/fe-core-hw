@@ -1,0 +1,38 @@
+
+  
+  .list {
+   display: inline-block;
+    list-style-type: none;
+    
+   
+  }
+  
+  .list-item {
+    float: left;
+    margin-right: 60px;
+    
+    
+  }
+  .list-nav{
+    padding-top: 110px;
+    padding-left: 100px;
+  }
+  .link {
+    font-size: 28px;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    
+  }
+  
+  .link:hover {
+    color: rgb(37, 52, 85);
+  }
+  
+  .list-item:last-child {
+    margin-right: 0;
+  }
+  
+  .list-item:nth-child(3) {
+    margin-right: 250px;
+  }

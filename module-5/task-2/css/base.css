@@ -1,0 +1,25 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .wrapper {
+    width: 1280px;
+    min-height: 100vh;
+   
+    
+    margin: auto;
+  }
+  .clearfix::after {
+    display: block;
+    content: '';
+    clear: both;
+  }
+  .header{
+    position: relative;
+    background: linear-gradient(to right, #a7bde5, #6cb1da);
+    min-height: 250px;
+   
+    
+  }
