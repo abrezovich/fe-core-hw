@@ -1,0 +1,50 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper {
+  width: 1280px;
+  margin: auto;
+}
+
+.clearfix::after {
+  display: block;
+  content: '';
+  clear: both;
+}
+
+.link {
+ float: left;
+  width: 45px;
+  height: 90px;
+  background: #38afe5;
+  text-decoration: none;
+  text-align: center;
+  line-height: 90px;
+}
+
+.back {
+
+  border-radius: 100% 0 0 100%/ 50% 0 0 50%;
+}
+.back::after{
+  content: "\2190";
+  color: #ffffff;
+  font-size: 25px;
+  font-weight: bolder;
+}
+
+.next {
+  border-radius: 0 100% 100% 0/ 0 50% 50% 0;
+}
+.next::after{
+  content: "\2192";
+  color: #ffffff;
+ font-size: 25px;
+font-weight: bolder;
+}
+.link:hover{
+  background: rgba(56, 175, 229, 0.5);
+}

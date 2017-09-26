@@ -1,20 +1,18 @@
-.logo {
-    
-     height: 140px;
-     width: 140px;
-     position: absolute;
-     top: 50%;
-     left: 50%;
-     transform: translate(-50%, -50%);
-     text-align: center;
-     border-radius: 50%;
-     background: white;
-   }
-   
-   .logo-text {
-   padding-top: 35%;
-     
-    
+ .logo-text {
+   height: 140px;
+   width: 140px;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   text-align: center;
+   border-radius: 50%;
+   background: white;
+   text-decoration: none;
+   font-size: 28px;
+   line-height: 140px;
+   text-transform: uppercase;
+ } 
     
     
-   }
+    
