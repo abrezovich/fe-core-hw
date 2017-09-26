@@ -1,0 +1,65 @@
+.triangle-top {
+  position: absolute;
+  bottom: -18px;
+  display: inline-block;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 5px 8px 5px;
+  border-color: transparent transparent #6980fe transparent;
+} 
+  
+  
+  .sublist{
+  /* display:none;*/
+    list-style-type: none;
+    background: #ffffff;
+    text-align: center;
+    position: absolute;
+  
+    width: 68px;
+  
+   
+  }
+  .submenu:hover>.sublist{
+    display: block;
+   
+  }
+  .submenu{
+    position: relative;
+   
+  }
+  .link-item{
+    text-decoration: none;
+    font-size: 20px;
+    font-family: Pathway Gothic one;
+    text-transform: uppercase;
+
+  }
+  
+ /* .list-item {
+    float: left;
+    margin-right: 60px;
+    
+    
+  }
+ 
+  .link {
+    font-size: 28px;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    
+  }
+  
+  .link:hover {
+    color: rgb(37, 52, 85);
+  }
+  
+  .list-item:last-child {
+    margin-right: 0;
+  }
+  
+  .list-item:nth-child(3) {
+    margin-right: 250px;
+  }*/
