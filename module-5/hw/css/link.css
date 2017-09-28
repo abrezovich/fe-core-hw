@@ -1,0 +1,46 @@
+.slide-link {
+  
+  float: left;
+   width: 45px;
+   height: 90px;
+   background: #38afe5;
+   text-decoration: none;
+   text-align: center;
+   line-height: 90px;
+   position: absolute;
+    z-index: 50;
+ }
+ 
+ .back {
+ 
+   border-radius: 100% 0 0 100%/ 50% 0 0 50%;
+   bottom: 100px;
+   left: 100px;
+ }
+ .back::after{
+   content: "\2190";
+   color: #ffffff;
+   font-size: 25px;
+   font-weight: bolder;
+ }
+ 
+ .next {
+   border-radius: 0 100% 100% 0/ 0 50% 50% 0;
+   bottom: 100px;
+   left: 145px;
+ }
+ .next::after{
+   content: "\2192";
+   color: #ffffff;
+  font-size: 25px;
+ font-weight: bolder;
+ }
+ .slide-link:hover{
+   background: rgba(56, 175, 229, 0.5);
+ }
+ .next.clic-slide1:hover #slide1{
+   
+   z-index: 40;
+   
+
+ }

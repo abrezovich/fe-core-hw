@@ -1,0 +1,16 @@
+.slide{
+  position: absolute;
+  top:60px;
+  left: 60px;
+}
+
+
+
+.slide-image{
+  display: block;
+  position: relative;
+  padding: 60px;
+  height: 698px;
+
+  
+}
