@@ -1,11 +1,13 @@
 .card-section {
   display: inline-block;
+  font-size: 0;
 }
 
 .card {
   float: left;
   margin-right: 18px;
   position: relative;
+
 }
 
 .card:last-child {
@@ -26,7 +28,7 @@
   width: 50%;
   height: 100%;
   background: var(--card-background-color);
-  z-index: 50;
+ 
 }
 
 .card:hover>.article-card {
@@ -45,19 +47,20 @@
 
 .text-card {
   font-family: arial;
-  font-size: 11px;
+  font-size: 10px;
   color: var(--card-text-color);
   padding: 10px;
   padding-top: 0;
 }
 
 .card-btn {
-  display: inline-block;
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+ font-size: 12px;
   border-radius: 6px;
   background: var(--btn-color);
   padding: 2px 14px;
-  margin-top: 6px;
-  margin-left: 40%;
   color: var(--btn-text-color);
   text-decoration: none;
 }
