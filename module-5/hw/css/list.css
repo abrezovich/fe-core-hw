@@ -15,14 +15,14 @@
   .link {
     font-size: 28px;
     font-family: Pathway Gothic one;
-    color: #fff;
+    color: var(--background-color);
     text-decoration: none;
     text-transform: uppercase;
     
   }
   
   .link:hover {
-    color: rgb(37, 52, 85);
+    color: var(--link-text-color);
   }
   
   .list-item:last-child {

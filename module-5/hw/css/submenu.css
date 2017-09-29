@@ -1,7 +1,7 @@
   .sublist{
    display:none;
     list-style-type: none;
-    background: #ffffff;
+    background: var(--background-color);
     text-align: center;
     position: absolute;
     bottom: -109px;

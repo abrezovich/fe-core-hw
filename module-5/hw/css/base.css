@@ -6,9 +6,9 @@
   
   .wrapper {
     background: url(../image/background.jpg);
-    width: 1920px;
+    width: 100%;
     min-height: 100vh;
-   padding: 0 450px 150px 450px;
+   
     
     margin: auto;
   }
@@ -28,7 +28,9 @@
     width: 1020px;
     min-height: 100vh;
     background: var(--background-color);
+    padding: 60px;
    position: relative;
+   margin: auto;
   }
   
  
