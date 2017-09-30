@@ -21,15 +21,12 @@
     content: '';
     clear: both;
 }
-.trait{
-    width: 100%;
-    border: 1px solid #dedbdb;
-    margin-top: 40px;
-}
+
 .section{
     margin-top: 40px;
 }
 .section-main{
     display: flex;
     margin-top: 40px;
+    margin-left: 10px;
 }
