@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    width: 770px;
+    padding: 50px;
+    margin: auto;
+ 
+}
+.image{
+    float: left;
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
+
+.clearfix::after {
+    display: block;
+    content: '';
+    clear: both;
+}
+.trait{
+    width: 100%;
+    border: 1px solid #dedbdb;
+    margin-top: 40px;
+}
+.section{
+    margin-top: 40px;
+}
+.section-main{
+    display: flex;
+    margin-top: 40px;
+}
