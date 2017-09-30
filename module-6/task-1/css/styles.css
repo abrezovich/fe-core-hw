@@ -9,27 +9,16 @@
     padding: 50px;
     margin: auto;
     background: #d7bca1;
-}
-
-.icon-list {
-    width: auto;
-    list-style: none;
     display: flex;
     justify-content: space-around;
 }
-
-.item-icon {
-    width: 40px;
-    height: 40px;
-    display: flex;
-}
-
 .icon {
     display: block;
     width: 40px;
+    height: 40px;
     line-height: 40px;
 }
-.item-icon:hover>.icon{
+div:hover>.icon{
     filter: contrast(10%)
 }
 .facebook {
