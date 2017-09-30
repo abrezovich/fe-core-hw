@@ -16,7 +16,7 @@
     display: block;
     width: 40px;
     height: 40px;
-    line-height: 40px;
+   
 }
 .icon:hover{
     filter: contrast(10%)
