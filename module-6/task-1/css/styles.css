@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    width: 300px;
+    padding: 50px;
+    margin: auto;
+    background: #d7bca1;
+}
+
+.icon-list {
+    width: auto;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+.item-icon {
+    width: 40px;
+    height: 40px;
+    display: flex;
+}
+
+.icon {
+    display: block;
+    width: 40px;
+    line-height: 40px;
+}
+.item-icon:hover>.icon{
+    filter: contrast(10%)
+}
+.facebook {
+    background: url(../image/sprite.png) -40px -40px;
+}
+
+.twitter {
+    background: url(../image/sprite.png);
+}
+
+.google {
+    background: url(../image/sprite.png) 0 -40px;
+}
+
+.instagram {
+    background: url(../image/sprite.png) -40px 0;
+}
