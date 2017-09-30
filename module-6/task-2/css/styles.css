@@ -5,9 +5,15 @@
 }
 
 .wrapper {
-    width: 300px;
+    width: 1020px;
     padding: 50px;
     margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
     
 }
 
+img{
+    margin-bottom: 40px;
+}
