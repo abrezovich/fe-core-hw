@@ -13,6 +13,7 @@
 
 aside {
     display: flex;
+    flex-direction: column;
 }
 
 .empty {
@@ -22,6 +23,10 @@ aside {
 .section {
     display: flex;
     flex-direction: column;
+    margin-bottom: 45px;
+}
+.section:last-child{
+    margin-bottom: 0;
 }
 
 .title {
@@ -29,7 +34,7 @@ aside {
     font-size: 32px;
     text-transform: uppercase;
     color: #263555;
-    margin: 45px 0;
+    margin-bottom: 45px;
 }
 
 .list {
