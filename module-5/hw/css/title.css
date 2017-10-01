@@ -1,0 +1,13 @@
+.title {
+    margin-bottom: 40px;
+    text-transform: uppercase;
+    color: var(--link-text-color);
+    font-family: Pathway Gothic one;
+}
+
+.subtitle {
+    font-family: arial;
+    font-size: 15px;
+    margin-bottom: 10px;
+    color: var(--link-text-color);
+}

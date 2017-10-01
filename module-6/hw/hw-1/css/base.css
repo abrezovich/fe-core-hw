@@ -1,0 +1,37 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    background: url(../image/background.jpg);
+    width: 100%;
+    min-height: 100vh;
+    position: relative;
+    margin: auto;
+    padding-top: 20px;
+ 
+}
+
+.clearfix::after {
+    display: block;
+    content: '';
+    clear: both;
+}
+
+.header{
+    width: 768px;
+    margin: 0 auto 20px auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.main{
+    width: 768px;
+    background: var(--background-color);
+    margin: auto;
+    padding: 50px;
+}

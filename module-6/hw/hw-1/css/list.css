@@ -1,0 +1,26 @@
+  .list-header {
+   display: flex;
+   flex-wrap: wrap;
+   width: 390px;
+   justify-content: space-evenly;
+    list-style-type: none;
+    text-align: center;
+    
+   
+  }
+  
+  .list-item-header {
+    
+    margin-right: 42px;
+        
+  }
+ 
+ 
+  
+  .list-item-header:first-child {
+    margin-left: 64px;
+  }
+  
+  .list-item-header:nth-child(4) {
+    margin-left: 64px;
+  }

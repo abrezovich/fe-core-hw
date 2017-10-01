@@ -1,0 +1,17 @@
+:root{
+    --background-color: #ffffff;
+    --link-color:#ffffff;
+    --link-color-hover:#253455;
+    --background-sub-color:#f2f2f3;
+    --sub-text-color:#828999;
+    --link-text-color: #404b65;
+    --link-background-color:#38afe5;
+    --card-title-color: #e9eaec;
+    --card-text-color: #cbc6c6;
+    --card-background-color: #193149;
+    --btn-color: #f9f6fc;
+    --text-color:#4e5050;
+    --font-path: Pathway Gothic one;
+    --font-dorsa:Dorsa;
+
+}
