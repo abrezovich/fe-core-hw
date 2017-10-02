@@ -2,7 +2,8 @@
     margin-bottom: 40px;
     text-transform: uppercase;
     color: var(--link-text-color);
-    font-family: Pathway Gothic one;
+    font-family:var(--font-path);
+    
 }
 
 .subtitle {

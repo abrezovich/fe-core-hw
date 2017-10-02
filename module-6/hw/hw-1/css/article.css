@@ -1,12 +1,13 @@
 .trait {
     padding-bottom: 40px;
-    border-bottom: 1px solid #dedbdb;
+    border-bottom: 1px solid var(--border-color);
 }
 
 .quote {
     padding: 10px;
-    background-color: #fcfafa;
+    background-color: var(--quote-background-color);
     position: relative;
+    
 }
 
 .quote::after {
@@ -18,7 +19,8 @@
     height: 0;
     border-left: 20px solid transparent;
     border-right: 20px solid transparent;
-    border-top: 60px solid #fcfafa;
+    border-top: 60px solid var(--quote-background-color);
+
 }
 
 .text {
@@ -26,22 +28,25 @@
     font-size: 13px;
     color: var( --text-color);
 }
-
+.marg{
+    margin-bottom: 0;
+}
 .marg::before {
     content: '\201C';
-    color: #263555;
+    color: var(--schar-color);
     margin-right: 6px;
     margin-left: 8px;
 }
 
 .marg::after {
     content: '\201D';
-    color: #263555;
+    color: var(--schar-color);
     margin-right: 6px;
     margin-left: 8px;
 }
 .asid{
-    margin-left: 10px;
+    padding-left: 10px;
+   margin-top: 40px;
 }
 .aside-text {
     margin-top: 60px;

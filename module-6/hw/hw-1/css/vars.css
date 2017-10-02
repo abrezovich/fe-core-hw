@@ -1,5 +1,6 @@
 :root{
     --background-color: #ffffff;
+    --quote-background-color:#fcfafa;
     --link-color:#ffffff;
     --link-color-hover:#253455;
     --background-sub-color:#f2f2f3;
@@ -11,6 +12,10 @@
     --card-background-color: #193149;
     --btn-color: #f9f6fc;
     --text-color:#4e5050;
+    --border-color:#dedbdb;
+    --counter-background-color:#38afe5;
+    --schar-color:#263555;
+    --schar-list-color:#84cdef;
     --font-path: Pathway Gothic one;
     --font-dorsa:Dorsa;
 

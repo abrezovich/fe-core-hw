@@ -1,20 +1,42 @@
 .link-header {
-    font-size: 28px;
-    font-family: var(--font-path);
-    color: var(--link-color);
-    text-decoration: none;
-    text-transform: uppercase;
-    
-  }
-  
-  .link-header:hover {
-    color: var(--link-color-hover);
-  }
-  .link-item-header{
-    text-decoration: none;
-    font-size: 20px;
-    font-family: var(--font-path);
-    text-transform: uppercase;
-    color: var(--sub-text-color);
+  font-size: 28px;
+  font-family: var(--font-path);
+  color: var(--link-color);
+  text-decoration: none;
+  text-transform: uppercase;
+}
 
-  }
+.link-header:hover {
+  color: var(--link-color-hover);
+}
+
+.link-item-header {
+  text-decoration: none;
+  font-size: 20px;
+  font-family: var(--font-path);
+  text-transform: uppercase;
+  color: var(--sub-text-color);
+}
+
+
+
+
+.link-back {
+  border-radius: 50%;
+  width: 35px;
+  background: var(--link-background-color);
+  text-decoration: none;
+  line-height: 35px;
+  margin-left: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.link-back::after {
+ 
+  content: "\003C";
+  transform: rotate(90deg);
+  color: var(--background-color);
+  font-size: 25px;
+  font-weight: bolder;
+}

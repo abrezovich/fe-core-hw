@@ -30,8 +30,17 @@
 }
 
 .main{
+   
     width: 768px;
     background: var(--background-color);
     margin: auto;
     padding: 50px;
+}
+.section{
+    margin-top: 40px;
+}
+.section-main{
+    display: flex;
+    margin-top: 40px;
+    
 }
