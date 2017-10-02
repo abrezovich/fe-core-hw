@@ -6,11 +6,13 @@
 
 .wrapper {
     background: url(../image/background.jpg);
+   
+    background-size: 100%;
     width: 100%;
     min-height: 100vh;
     position: relative;
     margin: auto;
-    padding-top: 20px;
+    padding-top: 1.25rem;
  
 }
 
@@ -21,8 +23,8 @@
 }
 
 .header{
-    width: 768px;
-    margin: 0 auto 20px auto;
+    width: 48rem;
+    margin: 0 auto 1.25rem auto;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -31,16 +33,17 @@
 
 .main{
    
-    width: 768px;
+    width: 48rem;
     background: var(--background-color);
     margin: auto;
-    padding: 50px;
+    padding: 3.125rem;
 }
 .section{
-    margin-top: 40px;
+    margin-top: 2.5rem;
 }
 .section-main{
     display: flex;
-    margin-top: 40px;
+    margin-top: 2.5rem;
+    justify-content: space-between;
     
 }

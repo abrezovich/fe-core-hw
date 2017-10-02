@@ -1,0 +1,22 @@
+.page-footer{
+  display: flex;
+  justify-content: space-evenly;
+  width: 48rem;
+  margin: auto;
+  background: var( --footer-background-color);
+  padding: 2.5rem 0;
+}
+.footer{
+  display: flex;
+  flex-direction: column;
+  font-family: var(--font-footer);
+  font-size: 1rem;
+  color: var(--foter-text-color);
+  
+}
+.footer-text{
+  margin-bottom: 0.938rem;
+}
+.footer-text:last-child{
+  margin-bottom: 0;
+}

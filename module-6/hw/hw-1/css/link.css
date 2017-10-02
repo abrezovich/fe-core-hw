@@ -1,5 +1,5 @@
 .link-header {
-  font-size: 28px;
+  font-size: 1.75rem;
   font-family: var(--font-path);
   color: var(--link-color);
   text-decoration: none;
@@ -12,7 +12,7 @@
 
 .link-item-header {
   text-decoration: none;
-  font-size: 20px;
+  font-size: 1.25rem;
   font-family: var(--font-path);
   text-transform: uppercase;
   color: var(--sub-text-color);
@@ -23,10 +23,10 @@
 
 .link-back {
   border-radius: 50%;
-  width: 35px;
+  width: 2.188rem;
   background: var(--link-background-color);
   text-decoration: none;
-  line-height: 35px;
+  line-height: 2.188rem;
   margin-left: auto;
   display: flex;
   justify-content: center;
@@ -37,6 +37,6 @@
   content: "\003C";
   transform: rotate(90deg);
   color: var(--background-color);
-  font-size: 25px;
+  font-size: 1.563rem;
   font-weight: bolder;
 }
