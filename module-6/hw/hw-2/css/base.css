@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    background: url(../image/background.jpg);
+   
+    background-size: 100%;
+    width: 100%;
+    min-height: 100vh;
+    position: relative;
+    margin: auto;
+    padding-top: 1.25rem;
+ 
+}
+
+.clearfix::after {
+    display: block;
+    content: '';
+    clear: both;
+}
+
+.header{
+    width: 64rem;
+    margin: 0 auto 1.25rem auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.main{
+   
+    width: 64rem;
+    background: var(--background-color);
+    margin: auto;
+    padding: 3.125rem;
+}

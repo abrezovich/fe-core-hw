@@ -1,0 +1,24 @@
+.icon {
+  display: block;
+  width: 40px;
+  height: 40px;
+ 
+}
+.icon:hover{
+  filter: contrast(10%)
+}
+.facebook {
+  background: url(../image/sprite.png) -40px -40px;
+}
+
+.twitter {
+  background: url(../image/sprite.png);
+}
+
+.google {
+  background: url(../image/sprite.png) 0 -40px;
+}
+
+.instagram {
+  background: url(../image/sprite.png) -40px 0;
+}

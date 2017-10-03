@@ -1,0 +1,9 @@
+.title {
+    margin-bottom: 2.5rem;
+    text-transform: uppercase;
+    color: var(--schar-color);
+    font-family:var(--font-path);
+    font-size: 2rem;
+    
+}
+

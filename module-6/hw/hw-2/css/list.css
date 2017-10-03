@@ -1,0 +1,36 @@
+  .list-header {
+    display: flex;
+    flex-wrap: wrap;
+    width: 64rem;
+    justify-content: space-evenly;
+    list-style-type: none;
+    text-align: center;
+  }
+
+  .list-item-header {
+    margin-right: 2.625rem;
+  }
+
+  .list-item-header:first-child {
+    margin-left: 4rem;
+  }
+
+  .list-item-header:nth-child(4) {
+    margin-left: 4rem;
+  }
+ 
+
+.list-item::before {
+	counter-increment: list;
+	content: counter(list);
+	display: block;
+	float: left;
+	width: 1.625rem;
+	height: 1.625rem;
+	margin-right: 0.75rem;
+	border-radius: 50%;
+	background-color: var(--counter-background-color);
+	color: var(--background-color);
+	text-align: center;
+  line-height: 1.625rem;
+}

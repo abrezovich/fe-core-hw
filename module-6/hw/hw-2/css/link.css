@@ -1,0 +1,52 @@
+.link-header {
+  font-size: 1.75rem;
+  font-family: var(--font-path);
+  color: var(--link-color);
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.link-header:hover {
+  color: var(--link-color-hover);
+}
+
+.link-item-header {
+  text-decoration: none;
+  font-size: 1.25rem;
+  font-family: var(--font-path);
+  text-transform: uppercase;
+  color: var(--sub-text-color);
+}
+
+
+
+
+.link-back {
+  border-radius: 50%;
+  width: 2.188rem;
+  background: var(--link-background-color);
+  text-decoration: none;
+  line-height: 2.188rem;
+  margin-left: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.link-back::after {
+ 
+  content: "\003C";
+  transform: rotate(90deg);
+  color: var(--background-color);
+  font-size: 1.563rem;
+  font-weight: bolder;
+}
+.footer-text{
+  margin-bottom: 0.938rem;
+ text-decoration:  none;
+ font-family: var(--font-footer);
+ font-size: 1rem;
+ color: var(--foter-text-color);
+}
+.footer-text:last-child{
+  margin-bottom: 0;
+}
