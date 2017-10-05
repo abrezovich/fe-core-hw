@@ -1,0 +1,29 @@
+.gallery-image{
+    margin-bottom: 2.5rem;
+    line-height: 100%;
+    position: relative;
+}
+.gallery-image:nth-last-child(-n+3){
+    margin-bottom: 0;  
+}
+.gallery{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.zoom{
+    display: none;
+   
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+
+}
+.gallery-image:hover> .zoom{
+    display: block;
+}
+.gallery-image:hover> .image{
+    filter: contrast(30%);
+}
+
