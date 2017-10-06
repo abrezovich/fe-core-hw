@@ -11,8 +11,10 @@
     --card-title-color: #e9eaec;
     --card-text-color: #cbc6c6;
     --card-background-color: #193149;
+    --btn-border-color:#c1bbbb;
     --btn-color: #f9f6fc;
     --text-color:#4e5050;
+    --content-link-color:#868f8f;
     --border-color:#dedbdb;
     --counter-background-color:#38afe5;
     --schar-color:#263555;
@@ -21,5 +23,7 @@
     --font-path: Pathway Gothic one;
     --font-dorsa:Dorsa;
     --font-footer: 'Open Sans Condensed', sans-serif;
+    --font-arial: Arial;
+
 
 }
