@@ -34,15 +34,19 @@
     position: relative;
 }
 
-.main{
+.main-page{
    
     width: 64rem;
     background: var(--background-color);
     margin: auto;
     padding: 3.125rem;
     padding-bottom: 1.25rem;
+   
+}
+.main{
     display: flex;
 }
+
 aside {
     display: flex;
     flex-direction: column;

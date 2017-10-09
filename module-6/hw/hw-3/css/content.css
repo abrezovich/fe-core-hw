@@ -49,3 +49,30 @@
   font-size: 0.8215rem;
   text-transform: uppercase;
 }
+.date{
+  border-radius: 50%;
+  width: 2.188rem;
+  background: var(--link-background-color);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.562rem;
+  font-family: var(--font-arial);
+  text-transform: uppercase;
+  min-height: 2.188rem;
+  margin-right: 0.625rem;
+  color: var(--link-color);
+  
+}
+.section-content-head{
+  display: flex;
+}
+.section-content-head-title{
+  width: 100%;
+}
+.trait {
+  padding-bottom: 2.5rem;
+  border-bottom: 1px solid var(--border-color);
+  margin-bottom: 2.5rem;
+}
