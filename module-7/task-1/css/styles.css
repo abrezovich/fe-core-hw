@@ -16,9 +16,13 @@ textarea
   margin-bottom: 1.25rem;
   background: #fcfafa;
   border: 1px solid #d4d0d0;
+  width: 100%;
 }
 textarea {
 	resize: none;
+}
+button[type="reset"]{
+  margin-right: 1.25rem;
 }
 button{
   background: #fcfafa;
@@ -27,6 +31,10 @@ button{
   padding-left: 0.625rem;
   padding-right: 0.625rem;
   
+}
+.section-button{
+  display: flex;
+  justify-content: flex-end;
 }
 .title{
   margin-bottom: 3.125rem;
