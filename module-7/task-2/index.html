@@ -1,27 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="css/styles.css">
-  <title>Module-7 task-1</title>
+  <title>Module-7 task-2</title>
 </head>
+
 <body>
   <div class="wrapper">
-  <form action="#">
-    <section>
-      <h2 class="title">CONTACT US</h2>
-      <input type="text" name="name" placeholder="NAME" required>
-      <input type="email" name="email" placeholder="EMAIL">
-      <input type="text" name="subject" placeholder="SUBJECT">
-      <textarea name="message"placeholder="MESSAGE" cols="20" rows="10"></textarea>
-      <div class="section-button">
-      <button type="reset">Clear</button>
-      <button type="submit">Send</button>
-    </div>
-    </section>
-  </form>
-</div>
+    <form action="#">
+      <section>
+        <h2 class="title">Browse</h2>
+        <label for="Browse">Browse by Tour Operator</label>
+        <select name="Browse" id="Browse">
+          <option value = "1">Browse by Tour Operator</option> 
+          <option value = "2">Browse by Tour Operator in....</option> 
+        </select>
+        <button type="button">Search</button>
+
+      </section>
+    </form>
+    <form action="#">
+      <section>
+        <h2 class="title">Search</h2>
+        <h6>All Tour Operators</h6>
+        <label for="Destination">Destination</label>
+        <select name="Destination" id="Destination">
+          <option value = "1">Any destination</option> 
+          <option value = "2">Any destination.......</option> 
+        </select>
+        <label for="Departing">Departing</label>
+        <select name="Departing" id="Departing">
+            <option value = "1">Any departing</option> 
+            <option value = "2">Any departing......</option> 
+        </select>
+        <label for="Price">Price</label>
+        <select name="Price" id="Price">
+          <option value = "1">Any price</option> 
+          <option value = "2">Any price.....</option> 
+        </select>
+        <label for="Duration">Duration</label>
+        <select name="Duration" id="Duration">
+           <option value = "1">Any duration</option> 
+           <option value = "2">Any duration....</option> 
+        </select>
+        <button type="button">Search</button>
+      </section>
+    </form>
+  </div>
 </body>
+
 </html>
