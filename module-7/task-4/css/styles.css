@@ -5,10 +5,20 @@
 }
 .wrapper{
   margin: auto;
+  max-width: 13.5rem;
+  display: block;
+ 
 }
-.map{
-  padding-top: 2rem;
-  display: flex;
-  justify-content: center;
-} 
+table{
+margin-bottom: 3.125rem;
 
+}
+a{
+  text-decoration: none;
+}
+.phone{
+  padding-left: 1rem;
+}
+caption{
+  text-align: left;
+}
