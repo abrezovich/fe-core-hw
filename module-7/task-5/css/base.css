@@ -10,9 +10,12 @@
 }
 .section-content{
   font-family: var(--font-arial);
-  padding-right: 2.5rem;
+ 
 }
+.content-article{
+  display: flex;
 
+}
 .art{
  
   font-size: 0.625rem;
@@ -43,3 +46,15 @@
   text-decoration: none;
 }
 
+.title-content:hover{
+  transform: scale(1.5);
+}
+.image-content:hover{
+  transform: rotate(45deg);
+}
+.art:hover{
+  color: var(--schar-list-color);
+}
+.content-btn:hover{
+  width: 8.7rem; 
+}
