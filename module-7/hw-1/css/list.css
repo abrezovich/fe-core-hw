@@ -1,17 +1,25 @@
-  .list {
-   display: inline-block;
-    list-style-type: none;
-    
-   
-  }
+.list-header {
+  display: flex;
   
-  .list-item {
-    float: left;
-    margin-right: 60px;
-    
-    
-  }
- 
+  width: 64rem;
+  justify-content: space-evenly;
+  
+  list-style-type: none;
+  
+}
+
+.list-item-header {
+  margin-right: 2.625rem;
+}
+
+.list-item-header:first-child {
+  margin-left: 4rem;
+}
+
+.list-item-header:nth-child(3) {
+  margin-right: 13rem;
+}
+
   .link {
     font-size: 28px;
     font-family: Pathway Gothic one;

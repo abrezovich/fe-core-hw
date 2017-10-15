@@ -1,13 +1,17 @@
 .card-section {
-  display: inline-block;
-  font-size: 0;
+  display: flex;
+  justify-content: space-between;
+ 
 }
 
 .card {
-  float: left;
-  margin-right: 18px;
+  
+  display: flex;
+  justify-content: space-between;
   position: relative;
-
+  
+  
+  
 }
 
 .card:last-child {
@@ -28,11 +32,25 @@
   width: 50%;
   height: 100%;
   background: var(--card-background-color);
- 
-}
+  transition: display 10.5s 40.1s ease-in-out;
 
+}
+@keyframes card-anim{
+  from{ opacity: 0;
+  transform: translate(50%, -50%);
+}
+  to{
+    opacity: 1;
+    transform: none;
+  }
+
+}
 .card:hover>.article-card {
+  
   display: block;
+  animation-name: card-anim;
+  animation-duration: 1s;
+  
 }
 
 .title-card {
@@ -43,6 +61,7 @@
   padding: 20px;
   font-stretch: condensed;
   text-align: center;
+  
 }
 
 .text-card {

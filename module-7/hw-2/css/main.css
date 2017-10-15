@@ -1,0 +1,99 @@
+.main {
+  display: flex;
+  justify-content: space-between;
+  width: 64rem;
+ 
+  background: var(--background-color);
+  padding: 3.75rem;
+  position: relative;
+  margin: auto;
+}
+.contacts-map{
+  display: flex;
+  justify-content: space-between;
+}
+.contacts-section{
+  flex-basis: 75%;
+}
+
+table{
+  margin-bottom: 3.125rem;
+  color: var(--tab-text-color);
+  
+  
+  }
+  a{
+    text-decoration: none;
+    color: var(--tab-text-color);
+
+  }
+  .mailto{
+    color: var(--mail-text-color);
+  }
+  .phone{
+    text-align: right;
+  }
+  caption{
+    text-align: left;
+  }
+  
+
+.link-back {
+  border-radius: 50%;
+  width: 2.188rem;
+  background: var(--link-background-color);
+  text-decoration: none;
+  line-height: 2.188rem;
+  margin-left: auto;
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  right: 15%;
+  bottom: 5%;
+}
+
+.link-back::after {
+ 
+  content: "\003C";
+  transform: rotate(90deg);
+  color: var(--background-color);
+  font-size: 1.563rem;
+  font-weight: bolder;
+}
+
+input[type="text"],
+input[type="email"],
+textarea
+{
+  display: block;
+  margin-bottom: 1.25rem;
+  background: var(--quote-background-color);
+  border: 1px solid var(--border-color);
+  width: 100%;
+  
+}
+textarea {
+	resize: none;
+}
+button[type="reset"]{
+  margin-right: 1.25rem;
+}
+button{
+  background: var(--quote-background-color);
+  border: 1px solid var(--border-color);
+  border-radius: 0.312rem;
+  padding-left: 0.625rem;
+  padding-right: 0.625rem;
+  
+}
+.section-button{
+  display: flex;
+  justify-content: flex-end;
+}
+.title{
+  margin-bottom: 3.125rem;
+  font-family:var(--font-path);
+  font-size: 2rem;
+  color: var(--schar-color);
+
+}

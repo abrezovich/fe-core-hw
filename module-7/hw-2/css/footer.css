@@ -1,0 +1,59 @@
+.page-footer{
+  display: flex;
+  justify-content: space-evenly;
+  width: 64rem;
+  margin: auto;
+  background: var( --footer-background-color);
+  padding: 2.5rem 0;
+}
+.footer{
+  display: flex;
+  flex-direction: column;
+ 
+}
+.footer-list{
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+}
+.footer-text{
+  margin-bottom: 0.938rem;
+ text-decoration:  none;
+ font-family: var(--font-footer);
+ font-size: 1rem;
+ color: var(--foter-text-color);
+}
+.footer-text:last-child{
+  margin-bottom: 0;
+}
+.footer-social{
+  display: flex;
+  width: 15.625rem;
+  margin: 1.25rem auto;
+ 
+  justify-content: space-evenly;
+}
+.icon {
+  display: block;
+  width: 40px;
+  height: 40px;
+ 
+}
+.icon:hover{
+  filter: contrast(10%)
+}
+.facebook {
+  background: url(../image/sprite.png) -40px -40px;
+}
+
+.twitter {
+  background: url(../image/sprite.png);
+}
+
+.google {
+  background: url(../image/sprite.png) 0 -40px;
+}
+
+.instagram {
+  background: url(../image/sprite.png) -40px 0;
+}

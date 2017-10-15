@@ -6,24 +6,34 @@
 
 .wrapper {
   background: url(../image/background.jpg);
+ 
+  background-size: 100%;
   width: 100%;
   min-height: 100vh;
   position: relative;
   margin: auto;
+  padding-top: 1.25rem;
+
 }
 
 .clearfix::after {
   display: block;
   content: '';
   clear: both;
+} 
+
+.header{
+  width: 64rem;
+  height: 14rem;
+  margin: 0 auto 1.25rem auto;
+  display: flex;
+  
+ 
+ 
+  align-items: center;
+  position: relative;
 }
 
-.header-page {
-  position: relative;
-  min-height: 160px;
-  padding: 100px 0;
-  text-align: center;
-}
 
 .main {
   width: 1020px;
