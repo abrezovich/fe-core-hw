@@ -1,0 +1,66 @@
+.card-section {
+  display: inline-block;
+  font-size: 0;
+}
+
+.card {
+  float: left;
+  margin-right: 18px;
+  position: relative;
+
+}
+
+.card:last-child {
+  margin-right: 0;
+}
+
+.text-card-header {
+  text-transform: uppercase;
+  font-family: Pathway Gothic one;
+  font-size: 31px;
+  font-weight: normal;
+  padding: 50px 0;
+}
+
+.article-card {
+  display: none;
+  position: absolute;
+  width: 50%;
+  height: 100%;
+  background: var(--card-background-color);
+ 
+}
+
+.card:hover>.article-card {
+  display: block;
+}
+
+.title-card {
+  text-transform: uppercase;
+  font-family: Pathway Gothic one;
+  font-size: 31px;
+  color: var(--card-title-color);
+  padding: 20px;
+  font-stretch: condensed;
+  text-align: center;
+}
+
+.text-card {
+  font-family: arial;
+  font-size: 10px;
+  color: var(--card-text-color);
+  padding: 10px;
+  padding-top: 0;
+}
+
+.card-btn {
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+ font-size: 12px;
+  border-radius: 6px;
+  background: var(--btn-color);
+  padding: 2px 14px;
+  color: var(--btn-text-color);
+  text-decoration: none;
+}

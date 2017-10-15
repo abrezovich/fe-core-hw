@@ -20,15 +20,18 @@
  
   font-size: 0.625rem;
   color: var(--text-color);
+  transition: 1s 0.45s ease;
 }
 .image-content{
   margin-right: 1rem;
+  transition: 1s 1s linear;
 }
 .title-content{
  
   font-size: 0.8215rem;
   margin-bottom: 1rem;
   color: var(--schar-color);
+  transition: 1.5s 0.3s ease-out;
 }
 
 .content-btn {
@@ -44,6 +47,7 @@
   padding: 0.125rem 0.875rem;
   color: var(--btn-text-color);
   text-decoration: none;
+  transition: 0.5s 0.1s ease-in-out;
 }
 
 .title-content:hover{
@@ -51,10 +55,12 @@
 }
 .image-content:hover{
   transform: rotate(45deg);
+  
 }
 .art:hover{
   color: var(--schar-list-color);
 }
 .content-btn:hover{
   width: 8.7rem; 
+  
 }

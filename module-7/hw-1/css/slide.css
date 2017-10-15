@@ -1,0 +1,41 @@
+.slide{
+  position: absolute;
+ 
+}
+
+
+
+.slide-image{
+  display: block;
+  position: relative;
+ 
+  min-height: 578px;
+ 
+}
+.text-box{
+  display: block;
+ position: absolute;
+ top: 220px;
+ 
+}
+
+.text{
+  
+  text-transform: uppercase;
+  font-family: Pathway Gothic one;
+  font-size: 23px;
+  font-weight: normal;
+}
+.top{
+  padding: 20px 15px;
+display: inline-block;
+background: var(--background-color);
+color: var(--link-text-color);
+}
+.bottom{
+  padding: 15px;
+  background: var(--link-background-color);
+  color: var(--background-color);
+  font-size: 35px;
+}
+
