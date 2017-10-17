@@ -1,0 +1,34 @@
+.main {
+  display: flex;
+  justify-content: space-between;
+  width: 64rem;
+ 
+  background: var(--background-color);
+  padding: 3.75rem;
+  position: relative;
+  margin: auto;
+}
+
+select
+{
+  display: block;
+  margin-bottom: 1.25rem;
+  background: #fcfafa;
+  border: 1px solid #d4d0d0;
+  width: 100%;
+}
+
+button{
+  background: #fcfafa;
+  border: 1px solid #d4d0d0;
+  border-radius: 0.312rem;
+  padding-left: 0.625rem;
+  padding-right: 0.625rem;
+  
+}
+ul{
+  list-style: none;
+}
+.title{
+  margin-bottom: 3.125rem;
+}
