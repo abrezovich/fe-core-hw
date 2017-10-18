@@ -33,3 +33,52 @@ margin-bottom: 2rem;
 .tab-tour{
   flex-basis: 25%;
 }
+img{
+  display: block;
+}
+.link-back {
+  border-radius: 50%;
+  width: 2.188rem;
+  background: var(--link-background-color);
+  text-decoration: none;
+  line-height: 2.188rem;
+  margin-left: auto;
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  right: 15%;
+  bottom: 5%;
+}
+
+.link-back::after {
+ 
+  content: "\003C";
+  transform: rotate(90deg);
+  color: var(--background-color);
+  font-size: 1.563rem;
+  font-weight: bolder;
+}
+
+select
+{
+  display: block;
+  margin-bottom: 1.25rem;
+  background: #fcfafa;
+  border: 1px solid #d4d0d0;
+  width: 100%;
+}
+
+button{
+  background: #fcfafa;
+  border: 1px solid #d4d0d0;
+  border-radius: 0.312rem;
+  padding-left: 0.625rem;
+  padding-right: 0.625rem;
+  
+}
+ul{
+  list-style: none;
+}
+.title{
+  margin-bottom: 3.125rem;
+}
