@@ -17,7 +17,7 @@
     --text-color:#4e5050;
     --mail-text-color: #fa7e7e;
     --content-link-color:#868f8f;
-    --border-color:#dedbdb;
+    --border-color:#d4d0d0;
     --counter-background-color:#38afe5;
     --schar-color:#263555;
     --schar-list-color:#84cdef;
@@ -25,7 +25,6 @@
     --font-path: Pathway Gothic one;
     --font-dorsa:Dorsa;
     --font-footer: 'Open Sans Condensed', sans-serif;
-    --font-arial: Arial;
-
-
+    --font-arial:Arial, Helvetica, sans-serif;
+    --span-color: #9bd1f0;
 }
