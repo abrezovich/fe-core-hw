@@ -1,0 +1,31 @@
+.main {
+ 
+ 
+  background: var(--background-color);
+  padding: 3.75rem;
+  
+  margin: auto;
+}
+
+.link-back {
+  border-radius: 50%;
+  width: 2.188rem;
+  background: var(--link-background-color);
+  text-decoration: none;
+  line-height: 2.188rem;
+  margin-left: auto;
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  right: 15%;
+  bottom: 5%;
+}
+
+.link-back::after {
+ 
+  content: "\003C";
+  transform: rotate(90deg);
+  color: var(--background-color);
+  font-size: 1.563rem;
+  font-weight: bolder;
+}
