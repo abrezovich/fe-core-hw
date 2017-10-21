@@ -5,9 +5,32 @@
 }
 
 .container {
-  max-width: 100%;
+ 
   height: 480px;
   margin: auto;
+}
+
+.contain{
+ 
+  height: 66%;
+}
+.red {
+  background-color: red;
+ 
+  height: 33%;
+}
+.blue {
+ 
+  background-color: blue;
+ 
+  height: 30%;
+}
+
+.green {
+  background-color: green;
+ 
+  height: 70%;
+  
 }
 
 @media (min-width: 768px) {
@@ -27,26 +50,4 @@
     flex-basis:  73%;
     height: 100%;
   }
-}
-.contain{
-  width: 100%;
-  height: 66%;
-}
-.red {
-  background-color: red;
-  width: 100%;
-  height: 33%;
-}
-.blue {
- 
-  background-color: blue;
-  max-width: 100%;
-  height: 30%;
-}
-
-.green {
-  background-color: green;
-  max-width: 100%;
-  height: 70%;
-  
 }
