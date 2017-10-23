@@ -1,7 +1,8 @@
 .header {
   min-width:480px ;
+  max-width: 1024px;
   height: 14rem;
-  margin: 0 auto 1.25rem auto;
+  margin: auto;
   display: flex;
   align-items: flex-end;
   position: relative;

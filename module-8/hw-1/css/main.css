@@ -1,6 +1,6 @@
 .main {
   min-width:480px ;
- 
+ max-width: 1024px;
   background: var(--background-color);
   padding: 3.75rem;
   

@@ -3,7 +3,7 @@
     margin: 0;
     padding: 0;
 }
-@import 'mobile.css';
+
 .wrapper {
     min-width:480px ;
     background: url(../image/background.jpg);
@@ -15,6 +15,3 @@
 }
 
 
-.section-gallery{
-    margin-bottom: 4.37rem;
-}
