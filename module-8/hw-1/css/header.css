@@ -1,10 +1,11 @@
 .header {
-  
+  min-width:480px ;
   height: 14rem;
   margin: 0 auto 1.25rem auto;
   display: flex;
-  align-items: center;
+  align-items: flex-end;
   position: relative;
+  justify-content: center;
 }
 
 .link-header {
@@ -33,7 +34,7 @@
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, -75%);
   text-align: center;
   border-radius: 50%;
   color: var(--link-text-color);
@@ -47,23 +48,24 @@
 
 .list-header {
   display: flex;
-  width: 64rem;
+  flex-wrap: wrap;
+ 
   justify-content: space-evenly;
   list-style-type: none;
 }
 
 .list-item-header {
-  margin-right: 2.625rem;
-}
-
+  flex-basis: 33%;
+ }
+/***
 .list-item-header:first-child {
-  margin-left: 4rem;
+  margin-left: 6rem;
 }
-
+/***
 .list-item-header:nth-child(3) {
   margin-right: 13rem;
 }
-
+***/
 .sublist-header {
   display: none;
   list-style-type: none;

@@ -1,5 +1,5 @@
 .main {
- 
+  min-width:480px ;
  
   background: var(--background-color);
   padding: 3.75rem;

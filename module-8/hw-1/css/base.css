@@ -3,12 +3,10 @@
     margin: 0;
     padding: 0;
 }
-
+@import 'mobile.css';
 .wrapper {
+    min-width:480px ;
     background: url(../image/background.jpg);
-   
-   
-   
     min-height: 100vh;
     position: relative;
     margin: auto;
