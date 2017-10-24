@@ -1,12 +1,8 @@
 .header {
   min-width:480px ;
   max-width: 1024px;
-  height: 14rem;
+ 
   margin: auto;
-  display: flex;
-  align-items: flex-end;
-  position: relative;
-  justify-content: center;
 }
 
 .link-header {
@@ -30,13 +26,9 @@
 }
 
 .logo-text {
+  display: block;
   height: 140px;
   width: 140px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -75%);
-  text-align: center;
   border-radius: 50%;
   color: var(--link-text-color);
   background: var(--background-color);
@@ -45,6 +37,8 @@
   font-family: Dorsa;
   line-height: 140px;
   text-transform: uppercase;
+  margin: auto;
+  text-align: center;
 }
 
 .list-header {
@@ -57,6 +51,7 @@
 
 .list-item-header {
   flex-basis: 33%;
+  text-align: center;
  }
 /***
 .list-item-header:first-child {

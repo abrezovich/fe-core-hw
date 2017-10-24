@@ -16,7 +16,14 @@
     position: relative;
    
 }
-
+img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.image{
+    line-height: 100%;
+}
 
 .zoom{
     display: none;
@@ -33,4 +40,3 @@
 .gallery-image:hover> .image{
     filter: contrast(30%);
 }
-
