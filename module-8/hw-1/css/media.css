@@ -2,13 +2,18 @@
   .gallery-image:nth-last-child(-n+3) {
     display: none;
    }
+   .sublist-header {
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   }
 }
 @media( min-width:768px) {
   .gallery-image:last-child {
     display: none;
   }
   .gallery-image {
-    flex-basis: 50%;
+    flex-basis: 45%;
   }
   .gallery {
     display: flex;
@@ -22,7 +27,7 @@
     align-items: center;
     height: 14rem;
     display: flex;
-    align-items: flex-end;
+    
     position: relative;
     justify-content: center;
   }
@@ -31,7 +36,7 @@
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50);
+    transform: translate(-50%, -50%);
     text-align: center;
   }
   .list-item-header:nth-child(3) {
@@ -41,7 +46,7 @@
     margin-bottom: 0;
   }
   .gallery-image {
-    flex-basis: 33%;
+    flex-basis: 30%;
   }
   .gallery-image:last-child {
     display: block;
