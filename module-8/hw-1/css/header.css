@@ -73,12 +73,14 @@
 }
 
 .submenu-header:hover>.sublist-header {
-  display: block;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+  position: relative;
+  margin-top: 1rem;
 }
 
-.submenu-header {
-  position: relative;
-}
 
 .sublist-item-header {
   margin-top: 0.625rem;

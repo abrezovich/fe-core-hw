@@ -2,11 +2,7 @@
   .gallery-image:nth-last-child(-n+3) {
     display: none;
    }
-   .sublist-header {
-   top: 50%;
-   left: 50%;
-   transform: translate(-50%, -50%);
-   }
+   
 }
 @media( min-width:768px) {
   .gallery-image:last-child {
