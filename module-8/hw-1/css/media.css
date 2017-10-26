@@ -19,9 +19,13 @@
 }
 
 @media( min-width:1024px) {
+  .wrapper{
+    
+    background-position: center, center;    
+  }
   .header{
     align-items: center;
-    height: 14rem;
+    
     display: flex;
     
     position: relative;
@@ -30,10 +34,7 @@
   
   .logo-text{
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
+   
   }
   .list-item-header:nth-child(3) {
     margin-right: 13rem;
