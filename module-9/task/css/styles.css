@@ -4,34 +4,23 @@
   padding: 0;
 }
 
-.wrapper{
-  min-width: 480px;
-  min-height: 960px;
-  margin: auto;
-}
-.container {
-  
-  min-width: 480px;
-  min-height: 480px;
-  margin: auto;
-}
-
 .yellow {
+height: 240px;
 
   background-color: yellow;
   
 }
 
 .green {
-  
+  height:240px;
   background-color: green;
     
 }
 .tan{
- 
+  height: 240px;
   background-color: #D2B48C;
 }
 .lightpink{
-  
+  height: 240px;
   background-color: 	#FFB6C1;
 }
