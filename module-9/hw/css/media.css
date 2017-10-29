@@ -1,0 +1,65 @@
+@media( max-width:768px) {
+  .n-1, .n-2, .n-3 {
+    display: none;
+  }
+  .n-0 {
+    margin-bottom: 0;
+  }
+  .mail::before {
+    content: "\2709";
+    margin-right: 3px;
+  }
+  .tel::before {
+    content: "\260E";
+    margin-right: 3px;
+  }
+  .footer {
+    text-align: center;
+  }
+}
+
+@media( min-width:768px) {
+  .n-3 {
+    display: none;
+  }
+  .n-1, .n-2 {
+    margin-bottom: 0;
+  }
+  .footer {
+    display: flex;
+    flex-direction: column;
+  }
+
+}
+@media( min-width:992px){
+  .n-1, .n-2, .n-3 {
+    margin-bottom: 0;
+  }
+  .n-3{
+    display: block;
+  }
+}
+@media( min-width:1024px) {
+  .wrapper {
+    background-position: center, center;
+  }
+  .header {
+    align-items: center;
+    display: flex;
+    position: relative;
+    justify-content: center;
+  }
+  .logo-text {
+    position: absolute;
+  }
+  .list-item-header:nth-child(3) {
+    margin-right: 13rem;
+  }
+  .list-header {
+    flex-basis: 90%;
+  }
+  .list-item-header {
+    flex-basis: 10%;
+  }
+  
+}

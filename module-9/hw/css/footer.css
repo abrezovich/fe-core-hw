@@ -1,7 +1,4 @@
 .page-footer{
-  min-width:480px ;
-  max-width: 1024px;
- 
   
   margin: auto;
   background: var( --footer-background-color);
@@ -12,7 +9,7 @@
   list-style: none;
   display: flex;
   flex-wrap: wrap;
-  flex-basis: 70%;
+ 
 }
 .footer-list-item{
   justify-content: space-evenly;
@@ -20,6 +17,7 @@
   flex-basis: 33%;
 }
 .footer-text{
+  text-transform: uppercase;
   display: inline-block;
   margin-bottom: 0.938rem;
  text-decoration:  none;
@@ -63,5 +61,5 @@
 }
 .legal{
   text-align: center;
-  
+  color: var(--quote-background-color);
 }

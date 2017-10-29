@@ -2,6 +2,17 @@
   .gallery-image:nth-last-child(-n+3) {
     display: none;
    }
+   .mail::before{
+    content: "\2709"; 
+    margin-right: 3px;
+  }
+  .tel::before{
+    content: "\260E"; 
+    margin-right: 3px;
+  }
+  .footer{
+    text-align: center;
+  }
    
 }
 @media( min-width:768px) {
@@ -16,6 +27,15 @@
     justify-content: space-evenly;
     flex-wrap: wrap;
   }
+  .footer{
+    display: flex;
+    flex-direction: column;
+   
+  }
+  .page-footer{
+    display: flex;
+    justify-content: space-evenly;
+   }
 }
 
 @media( min-width:1024px) {
@@ -54,4 +74,6 @@
   .list-item-header {
     flex-basis: 10%;
    }
+   
+   
 }
