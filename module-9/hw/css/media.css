@@ -15,6 +15,10 @@
   }
   .footer {
     text-align: center;
+    
+  }
+  .img2{
+    display: none;
   }
 }
 
@@ -29,7 +33,17 @@
     display: flex;
     flex-direction: column;
   }
-
+  .img2{
+    display: block;
+    
+      float: left;
+      margin-bottom: 22px;
+      margin-right: 22px;
+    }
+  
+  .img1{
+    display: none;
+  }
 }
 @media( min-width:992px){
   .n-1, .n-2, .n-3 {
