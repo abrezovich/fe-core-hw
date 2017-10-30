@@ -4,6 +4,11 @@
   background: var( --footer-background-color);
   padding: 2.5rem 0;
 }
+footer {
+  min-width:480px ;
+  max-width: 1024px;
+margin: auto;
+}
 
 .footer-list{
   list-style: none;
