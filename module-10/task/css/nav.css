@@ -3,10 +3,10 @@
   margin: auto;
   justify-content: center;
 }
-.nav__title{
+.logo{
   padding: 1.5rem;
 }
-.nav__linc{
+.logo__linc{
   text-decoration: none;
   text-transform: uppercase;
   font-size: 2rem;
