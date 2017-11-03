@@ -1,0 +1,31 @@
+.nav{
+  display: flex;
+  margin: auto;
+  justify-content: center;
+}
+.nav__title{
+  padding: 1.5rem;
+}
+.nav__linc{
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 2rem;
+  color: red;
+}
+.nav-list{
+  padding: 1.5rem;
+  list-style: none;
+  display: flex;
+  margin-right: 5rem;
+}
+.nav-list__item{
+  margin-right: 2rem;
+  padding: 1rem;
+}
+.nav-list__item:last-child{
+  margin-right: 0;
+}
+.nav-list__linc{
+  text-decoration: none;
+  text-transform: uppercase;
+}

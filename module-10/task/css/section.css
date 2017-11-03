@@ -1,0 +1,22 @@
+.section{
+  display: block;
+  text-align: center;
+  margin: auto;
+}
+.section__title{
+  margin-top: 1rem;
+  padding: 1rem;
+  font-size: 2rem;
+  text-transform: uppercase;
+  color: blue;
+}
+.gallery{
+  display: flex;
+  justify-content: space-evenly;
+}
+.gallery__image{
+  display: block;
+  width: 100%;
+  height: auto;
+  flex-basis: 32%;
+}

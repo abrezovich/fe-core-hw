@@ -1,0 +1,31 @@
+.article{
+  display: block;
+  text-align: center;
+  margin: auto;
+}
+.article__image{
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.article__title{
+  margin-top: 1rem;
+  padding: 1rem;
+  font-size: 2rem;
+  text-transform: uppercase;
+  color: blue;
+}
+.article__subtitle{
+  margin-top: 1rem;
+  padding: 1rem;
+  font-size: 1.5rem;
+  color: greenyellow;
+}
+.article__linc{
+  margin-top: 1rem;
+  padding: 1rem;
+  font-size: 1.5rem;
+  text-decoration: none;
+  text-transform: uppercase;
+
+}
