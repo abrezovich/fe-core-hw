@@ -4,9 +4,7 @@
   margin: auto;
 }
 .article__image{
-  display: block;
-  width: 100%;
-  height: auto;
+ 
 }
 .article__title{
   margin-top: 1rem;
