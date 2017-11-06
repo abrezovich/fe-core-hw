@@ -47,7 +47,7 @@
     display: block;
 }
 @media( max-width:768px) {
-    .gallery__box--last:nth-last-child(-n+3){
+    .gallery__box--last:last-child{
         display: none;
     }
     
@@ -57,7 +57,9 @@
     .gallery__box--last-end:last-child{
         display: none;
       }
-        
+      .gallery__box--last:last-child{
+        margin-bottom: 0;
+    }  
   }
   @media( min-width:992px) {
     .gallery__box--last-end:last-child {
