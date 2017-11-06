@@ -16,5 +16,11 @@ body {
 a:hover{
     text-decoration: none;
 }
-
+@media( min-width:1024px) {
+    body {
+      background-position: center, center;
+    }
+   
+    
+  }
 

@@ -1,0 +1,42 @@
+.main {
+  max-width: 1024px;
+  background: var(--background-color);
+  padding: 2.5rem;
+  margin: auto;
+}
+
+.clearfix::after {
+  display: block;
+  content: '';
+  clear: both;
+}
+
+.main__link-back {
+  border-radius: 50%;
+  width: 2.188rem;
+  background: var(--link-background-color);
+  text-decoration: none;
+  line-height: 2.188rem;
+  margin-left: auto;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  position: fixed;
+  right: 15%;
+  bottom: 5%;
+}
+
+.main__link-back--after::after {
+  content: "\003C";
+  -webkit-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  transform: rotate(90deg);
+  color: var(--background-color);
+  font-size: 3rem;
+  font-family: var(--font-path);
+}
