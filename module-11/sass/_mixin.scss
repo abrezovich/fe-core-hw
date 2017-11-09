@@ -25,3 +25,11 @@
   align-items: $a-item;
   align-content: $a-content;
 }
+@mixin position($position,$left,$right,$top,$bottom,$transform){
+  position:$position;
+  left:$left;
+  right:$right;
+  bottom:$bottom;
+  top: $top;
+  transform:$transform;
+}

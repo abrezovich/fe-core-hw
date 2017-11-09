@@ -15,7 +15,7 @@
   @include text-decor(none, uppercase);
   &:hover {
     color: $link-color-hover;
-    text-decoration:none;
+    
   }
 }
 
@@ -71,9 +71,7 @@
   list-style-type: none;
   background: $background-sub-color;
   text-align: center;
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
+  @include position(absolute,50%,'','','',translateX(-50%));
   width: 4.25rem;
   margin-top: 0.5rem;
   padding: 0;
@@ -81,10 +79,7 @@
     margin-top: 0.625rem;
    }
    &::before {
-    position: absolute;
-    top: -0.5rem;
-    left: 50%;
-    transform: translatex(-50%);
+    @include position(absolute,50%,'',-0.5rem,'',translateX(-50%));
     content: '';
     @include size(0, 0);
     @include border(solid, 0 0.313rem 0.5rem 0.313rem,transparent transparent $background-sub-color transparent);
